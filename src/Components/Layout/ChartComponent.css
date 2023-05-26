@@ -1,0 +1,8 @@
+.chart-cochartinner p {
+    color: #ed6788;
+}
+.chart-component {
+    box-shadow: 0px 2px 6px rgba(0, 0, 0, 0.2);
+    padding: 20px;
+    border-radius: 20px;
+}

@@ -1,0 +1,23 @@
+.time-chart {
+    padding: 10px 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    box-shadow: 0px 2px 6px rgba(0, 0, 0, 0.2);
+    background-color: #fff;
+    margin-bottom: 10px;
+    border-radius: 10px;
+}
+p.chart-status {
+    color: #ed6788;
+    border: 1px solid #ed6788;
+    padding: 5px 10px;
+    border-radius: 20px;
+}
+.time-chart p{
+    margin: 0;
+    font-size:14px;
+}
+.statusbar p.statushead {
+    color: #ed6788;
+}
