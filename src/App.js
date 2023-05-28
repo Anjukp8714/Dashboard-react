@@ -8,6 +8,8 @@ import StatusBox from './Components/Layout/StatusBox';
 import ChartComponent from './Components/Layout/ChartComponent';
 import acorn  from './assets1/monitor.png';
 import RightIcon from './Components/Layout/RightIcon';
+import Navbar from './Components/Layout/Navbar';
+
 
 
 const App = () => {
@@ -67,9 +69,15 @@ const App = () => {
 
 
   return (
+    <div className='dashboard-inner'>
+      <div className='top-nav'>
+        <Navbar/>
+      </div>
     <div className='dashboard'>
+     
       <div className='leftmenu'>
       <Sidebar menuItems={menuItems} />
+
       </div>
       <div className='right-sec container'>
         <div className='top-sec'> <BoxComponent></BoxComponent></div>
@@ -86,6 +94,7 @@ const App = () => {
      <div className='lastSec'>
       <RightIcon/>
      </div>
+    </div>
     </div>
   );
 };
