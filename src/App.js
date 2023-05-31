@@ -11,6 +11,8 @@ import RightIcon from './Components/Layout/RightIcon';
 import Navbar from './Components/Layout/Navbar';
 import HalfDonutChart from './Components/Layout/HalfDonutChart';
 import BarChart from './Components/Layout/BarChart';
+import LinearChart from './Components/Layout/LinearChart';
+import DonutChart from './Components/Layout/DonutChart';
 
 
 
@@ -99,6 +101,14 @@ const App = () => {
       <div className='bar-chart'><BarChart/></div>
       <div className='donut'>
       <HalfDonutChart/>
+    </div>
+      </div>
+
+      <div className='chart-sec'>
+
+      <div className='bar-chart'><LinearChart/></div>
+      <div className='donut'>
+      <DonutChart/>
     </div>
       </div>
       
