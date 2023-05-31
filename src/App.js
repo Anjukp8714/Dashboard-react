@@ -9,6 +9,8 @@ import ChartComponent from './Components/Layout/ChartComponent';
 import acorn  from './assets1/monitor.png';
 import RightIcon from './Components/Layout/RightIcon';
 import Navbar from './Components/Layout/Navbar';
+import HalfDonutChart from './Components/Layout/HalfDonutChart';
+import BarChart from './Components/Layout/BarChart';
 
 
 
@@ -79,7 +81,8 @@ const App = () => {
       <Sidebar menuItems={menuItems} />
 
       </div>
-      <div className='right-sec container'>
+      <div className='container'>
+      <div className='right-sec '>
         <div className='top-sec'> <BoxComponent></BoxComponent></div>
         <div className='bottom-sec'>
           <div className='bottom-left-sec'>
@@ -91,10 +94,20 @@ const App = () => {
         </div>
      
       </div>
+      <div className='chart-sec'>
+
+      <div className='bar-chart'><BarChart/></div>
+      <div className='donut'>
+      <HalfDonutChart/>
+    </div>
+      </div>
+      
+    </div>
      <div className='lastSec'>
       <RightIcon/>
      </div>
     </div>
+  
     </div>
   );
 };
