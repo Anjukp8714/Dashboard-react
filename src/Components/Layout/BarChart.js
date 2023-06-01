@@ -55,11 +55,14 @@ const BarChart = () => {
   }, []);
 
   return (
+    <div>
+        <p>Fees Collection & Expenses For May 2023</p>
+    
    <div style={{ width: '500px', height: '300px' }}>
    <canvas id="myChart" width="600" height="400"></canvas>
 
    </div>
- 
+   </div>
   );
 };
 

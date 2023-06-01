@@ -72,8 +72,12 @@ const LinearChart = () => {
   }, []);
 
   return (
-    <div style={{ width: '500px', height: '300px' }}>
+    <div>
+        <p>Fees Collection & Expenses For Session 2023-24</p>
+    <div style={{ width: '500px' }}>
+       
       <div id="chart-container"></div>
+    </div>
     </div>
   );
 };

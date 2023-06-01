@@ -34,8 +34,11 @@ const options = {
 
 const HalfDonutChart = () => {
   return (
+    <div>
+        <p>Income - May 2023</p>
     <div style={{ width: '500px', height: '300px' }}>
       <Doughnut data={data} options={options} />
+    </div>
     </div>
   );
 };
